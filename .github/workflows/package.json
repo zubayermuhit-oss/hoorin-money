@@ -1,0 +1,21 @@
+{
+  "name": "hoorin-money",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hoorin Money Capacitor Android source project",
+  "scripts": {
+    "build": "node scripts/copy-web.js",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.0.1",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/preferences": "^7.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
